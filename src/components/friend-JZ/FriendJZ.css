@@ -1,0 +1,56 @@
+.friends-greeting {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 3rem;
+    margin-left: 3.5rem;
+}
+.friends {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3rem;
+    background-color:rgb(212, 226, 238);
+    border-radius: 1rem;
+    justify-content: space-around;
+}
+
+.friend{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    flex: 1;   
+    flex-basis: 10%;
+}
+
+.friend-profile {
+    width: 4rem;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+}
+
+.friend-profile:hover {
+    transform: scale(1.2);
+}
+
+.friend-name {
+    align-self: center;
+    font-weight:bolder;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #51545c;
+    margin-top: 1rem;
+}
+
+.remove-friend,
+.message-friend {
+    align-self: center;
+    background-color: #a1a7b8;
+    border-radius: 1rem;
+    width: 5rem;
+    margin-top: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #51545c;
+    text-align: center;
+}
+.message-friend:hover,
+.remove-friend:hover {
+    transform: scale(1.2);
+}

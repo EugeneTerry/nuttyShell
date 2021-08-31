@@ -1,0 +1,124 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+small {
+    color: rgb(124, 124, 124);
+}
+
+strong {
+    font-weight: bold;
+}
+
+button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#message-edit, 
+.messageForm {
+    margin: 1em;
+}
+#message-edit,
+#message-delete {
+    border: none;
+    cursor: pointer;
+}
+
+.message-icon {
+    width: 2.2rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+.status {
+    margin-left: 25%;
+}
+.message-icon-delete{
+    width: 1.5rem;
+}
+.message-icon-delete:hover{
+    transform:scale(1.5);
+}
+
+.delete {
+    margin-left: 45%;
+    border-radius: 20%;
+}
+
+.hide {
+    display: none;
+  }
+  
+.write:hover .hide {
+    display: block;
+    background-color: gainsboro;
+    padding: 0.25rem;
+    border-radius: 1rem;
+  }
+
+.message_container{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    border: solid  #007bff 0.1rem;
+    border-radius: 1rem;
+}
+.message_detail {
+    margin: 1rem;
+}
+
+.read {
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.read:hover{
+    transform:scale(1.5);
+}
+
+.message-form-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.messageForm {
+margin: 3rem;
+}
+
+.messageForm_title {
+    margin-bottom: 2rem; 
+}
+
+.send {
+    background-color: rgb(227, 229, 230);
+    padding-right: 0.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    color: #1d64af;
+}
+.send:hover{
+    transform:scale(1.25);
+}
+
+.search {
+    margin: 1.5rem;
+}

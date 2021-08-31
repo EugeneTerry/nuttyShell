@@ -1,0 +1,83 @@
+/* AUTHOR: Eugene Terry */
+/* PURPOSE: Provides the styling for all of the article pages 
+*/
+
+.articles {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:safe;
+  flex-direction: column;
+}
+
+.article{
+  flex-basis: 10%;
+  margin: 2em;
+  padding: 1em;
+  border: 1px solid rgb(32, 35, 218);
+  width: 50%;
+}
+
+.articleSecList  {
+  border: 2px solid rgba(8, 137, 236, 0.171);
+  margin: 1em 3em;
+  padding: 1em 1em;
+  width: 75%;
+}
+
+.linkDivArticleList {
+
+  margin: 1em 2em;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.returnBtn, .articlesBtn, .articleCreateBtn, .articleEditBtn  {
+  background-color: rgb(0, 145, 255);
+  color: white;
+  margin: 10px;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: .25rem;
+  display: inline-block;
+  font-weight: 400;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.deleteBtn {
+  background-color: red;
+  color: white;
+  margin: 10px;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: .25rem;
+  display: inline-block;
+  font-weight: 400;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.articleSearch {
+  font-size: 22px;
+color: rgb(0, 145, 255);
+font-weight: bold;
+}
+
+.input--wide {
+  font-size: 15px;
+  margin-left: 1rem;
+}
+
+.linkTitleArticleList {
+  font-size: 18px;
+  color: rgb(0, 145, 255);
+  
+}

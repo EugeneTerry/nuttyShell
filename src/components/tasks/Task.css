@@ -1,0 +1,59 @@
+h1, h2, h3 {
+    color: rgb(0, 145, 255)
+}
+
+.tasks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 2px solid rgba(8, 137, 236, 0.171);
+    margin: 1em 3em;
+    padding: 2em;
+  }
+  
+  .task {
+      margin: 1em;
+      flex-basis: 100%;
+  }
+
+.taskDetail {
+    display: flex;
+    flex-direction: column;
+    max-width: 40rem;
+    margin: 1em;
+    padding: 1em;
+    border: 2px solid rgba(8, 137, 236, 0.171);
+}
+
+.task__title {
+    font-size: 22px;
+}
+
+.taskForm {
+    display: block; 
+    border: 2px solid rgba(8, 137, 236, 0.171);
+    margin: 1em;
+    padding: 1em;   
+}
+
+.form-group {
+    display: flex;
+    margin: 1em;
+    padding: 1em;   
+}
+
+.tasksBtnDiv {
+    display: flex;
+    justify-content: left;
+    flex-basis: 100%;
+}
+
+.returnBtn, .saveBtn, .editBtn, .addTaskBtn {
+    margin: 8px;
+}
+
+.deleteBtn {
+    margin: 8px;
+    background-color: crimson !important;
+    border-color: crimson !important;
+}

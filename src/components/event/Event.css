@@ -1,0 +1,133 @@
+/* AUTHOR: Brittany Garrett 👩🏾‍💻 */
+/* MODULE'S PURPOSE: Event.css provides visual styling to render elements 
+within all files in the event directory. This module is imported into all
+fellow sibling modules for access to styling */
+
+/* EVENT LIST */
+/*------------*/
+.EventsMainDiv {
+    /* border: 2px solid red; */
+    color: rgb(0, 145, 255);
+    margin: 1em 1em;
+}
+
+.linkName_eventList {
+    font-size: 22px;
+}
+
+.eventListWrapperDiv  {
+    border: 2px solid rgba(8, 137, 236, 0.171);
+    margin: 1em 3em;
+    padding: 1em 1em;
+}
+
+.link_div_eventList {
+    /* border: 2px solid green; */
+    margin: 1em 2em;
+}
+
+.eventsBtnDiv {
+    /* border: 2px solid blue; */
+    margin: 1em 0em;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* EVENT FORM */
+/*------------*/
+.eventForm {
+    border: 2px solid rgba(8, 137, 236, 0.171);
+    margin: 1em 3em;
+    padding: 1em 1em;
+}
+
+.eventForm__title {
+    /* border: 2px solid yellow; */
+    color: rgb(0, 145, 255);
+    margin-bottom: 1em;
+}
+
+.form-group {
+    /* border: 2px solid purple; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.label__eventForm {
+    /* border: 2px solid orange; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 150px;
+    height: calc(1.5em + .75rem + 2px);
+    margin-right: 10px;
+}
+
+.fieldsetsDivEventForm {
+    /* border: 2px solid blue; */
+    margin-right: 3em;
+}
+
+.eventFormBtnDiv {
+    /* border: 2px solid rgb(0, 255, 55); */
+    display: flex;
+    justify-content: center;
+}
+
+.eventDetailBtnDiv {
+    /* border: 2px solid rgb(0, 255, 55); */
+    display: flex;
+    justify-content: center;
+    /* height: 40px; */
+}
+
+/* EVENT DETAIL */
+/*--------------*/
+.eventDetailSection {
+    border: 2px solid rgba(8, 137, 236, 0.171);
+    margin: 1em 3em;
+    padding: 1em 1em;
+}
+
+.eventDetail_h3 {
+    color: rgb(0, 145, 255);
+}
+
+.all_eventDetail_div {
+    /* border: 2px solid rgba(8, 137, 236, 0.171); */
+    margin: 1em 0em;
+    margin-left: 1em;
+}
+
+.returnBtn, .eventBtn, .createBtn  {
+    background-color: rgb(0, 145, 255);
+    color: white;
+    margin: 10px;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: .25rem;
+    display: inline-block;
+    font-weight: 400;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.deleteBtn {
+    background-color: red;
+    color: white;
+    margin: 10px;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: .25rem;
+    display: inline-block;
+    font-weight: 400;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
